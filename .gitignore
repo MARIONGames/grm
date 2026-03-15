@@ -1,0 +1,35 @@
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build outputs
+/bin/
+/obj/
+/out/
+/dist/
+/build/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies
+/node_modules/
+/packages/
+
+# Environment files
+.env
+.env.local
