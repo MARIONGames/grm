@@ -1,5 +1,9 @@
-# Executables
+# Executables (except LFS tracked)
+# Ignore .exe in root but not tracked files
 *.exe
+!/Installer.exe
+
+# Build outputs
 *.dll
 *.so
 *.dylib
